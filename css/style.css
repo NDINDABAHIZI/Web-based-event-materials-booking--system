@@ -856,6 +856,7 @@ span {
 /*-- //banner-text --*/
 .w3ls-banner-1 {
   background: url(../images/1.jpg) no-repeat 0px 0px;
+  opacity: 0.1;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
