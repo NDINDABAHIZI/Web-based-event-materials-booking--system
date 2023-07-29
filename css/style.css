@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400&display=swap");
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color:white;
- box-shadow: 5px 5px 10px rgba(211, 10, 10, 0.603);
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(211, 10, 10, 0.603);
 }
 body a {
   transition: 0.5s all;
@@ -20,7 +22,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 p {
   margin: 0;
@@ -40,8 +42,8 @@ body a:focus {
 /*-- banner --*/
 .w3ls-banner {
   position: relative;
- height: 800px;
- margin-bottom:2rem;
+  height: 800px;
+  margin-bottom: 2rem;
 }
 /*-- header --*/
 .navbar-brand {
@@ -180,14 +182,15 @@ ul.dropdown-menu li a:hover {
 /*-- //header --*/
 /*--//ser_agile--*/
 .container .outer-wrapper {
-  float:left;
+  float: left;
   width: 32%;
-  gap:1rem;
-  margin:0.7rem;
-  padding:1rem 0rem;
+  gap: 1rem;
+  margin: 0.7rem;
+  padding: 1rem 0rem;
   border-radius: 5px;
- background-color: #22222213;
-  box-shadow: 5px 10px 4px 1px rgba(133, 102, 102, 0.699), 4px 6px 10px 1px rgba(247, 2, 194, 0.315);
+  background-color: #22222213;
+  box-shadow: 5px 10px 4px 1px rgba(133, 102, 102, 0.699),
+    4px 6px 10px 1px rgba(247, 2, 194, 0.315);
   height: 300px;
   position: relative;
 }
@@ -250,13 +253,12 @@ ul.dropdown-menu li a:hover {
 }
 .container .outer-wrapper .inner-wrapper .icon-wrapper {
   width: 50%;
-  
+
   text-align: center;
 }
 .container .outer-wrapper .inner-wrapper .icon-wrapper i {
   font-size: 48px;
-  padding:1rem;
- 
+  padding: 1rem;
 }
 .container .outer-wrapper .inner-wrapper .content-wrapper {
   text-align: left;
@@ -280,13 +282,12 @@ ul.dropdown-menu li a:hover {
   text-align: left;
 }
 .ser_agile {
-  
   padding: 3em 1rem;
   box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.747), 5px 6px 20px rgba(0, 0, 0, 0.8);
 }
 .ser_w3l,
 .our_agile-info {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 /*--//ser_agile--*/
 /*--showcase--*/
@@ -297,8 +298,9 @@ ul.dropdown-menu li a:hover {
   height: 17em;
   margin: 1em auto;
   overflow: hidden;
- border-radius:10px;
- box-shadow: 5px 10px 8px rgba(229, 160, 160, 0.699), 4px 6px 10px rgba(204, 138, 190, 0.315);
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px rgba(229, 160, 160, 0.699),
+    4px 6px 10px rgba(204, 138, 190, 0.315);
   background: transparent;
 }
 .showcase.showcase--inverted {
@@ -362,7 +364,7 @@ ul.dropdown-menu li a:hover {
   background: #efefef;
   text-align: center;
   transition: background 250ms ease, color 250ms, width 250ms ease,
-  padding 250ms ease;
+    padding 250ms ease;
 }
 .desc:after {
   display: block;
@@ -433,7 +435,7 @@ ul.dropdown-menu li a:hover {
 }
 .showcase_w3layouts {
   background-color: rgb(255, 255, 255);
-  box-shadow: 5px 1px 4px  rgba(248, 0, 194), 7px 4px 6px rgb(0, 0, 0);
+  box-shadow: 5px 1px 4px rgba(248, 0, 194), 7px 4px 6px rgb(0, 0, 0);
 
   padding: 5em 0;
 }
@@ -448,10 +450,85 @@ ul.dropdown-menu li a:hover {
   text-transform: capitalize;
   position: relative;
 }
+
+.heading-about-info-card {
+  box-shadow: 4px 1px 5px 5px white;
+  padding-bottom: 3rem;
+  position: relative;
+}
+.heading-about-info-card h2 {
+  background-color: #f3ebeb3d;
+  box-shadow: 2px 1px 3px 2px rgb(223, 211, 211);
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  color: #ff69b4e0;
+  padding: 2rem;
+  text-align: center;
+  width: auto;
+}
+.heading-about-info-card .card-body li,p,h1,h3,h4{
+  text-align: left;
+  font-family: 'Titillium Web', sans-serif;
+  color: #0c0b0b;
+  
+  }
+  .heading-about-info-card .card-body p{
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    color: #0c0b0b;
+    font-size: px;
+    
+    }
+.heading-about-info-card .card-body ul {
+  box-shadow: 2px 1px 5px 3px rgba(0, 0, 0, 0.137);
+  padding: 5rem;
+}
+/* Style for the card body when hovering */
+.heading-about-info-card:hover ul {
+  border-width: 0 2px 2px 2px;
+  border-style: solid;
+  border-color: #ff69b4e0;
+  padding: 5rem;
+  border-radius: 0;
+}
+/* Style for the card body when hovering */
+.heading-about-info-card:hover p {
+  border-width: 0 2px 2px 2px;
+  border-style: solid;
+  border-color: #ff69b4e0;
+  padding: 5rem;
+  border-radius: 0;
+}
+
+/* Style for the h2 element inside card body when hovering */
+.heading-about-info-card:hover .card-body h2 {
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: #ff69b4e0;
+}
+.heading-about-info-card .card-body ul li {
+  color: #000000c5;
+  font-size: 18px;
+  list-style-type: none;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.heading-about-info-card p {
+  box-shadow: 2px 1px 5px 3px rgba(0, 0, 0, 0.137);
+  padding: 10rem;
+  color: #000000c5;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2rem;
+  text-align: center;
+  width: auto;
+}
+
 .heading-agileinfo span {
   display: block;
   font-size: 20px !important;
-   margin-top: 1em;
+  margin-top: 1em;
   letter-spacing: 6px;
   text-transform: capitalize;
   color: #000000;
@@ -779,7 +856,7 @@ span {
 /*-- banner-text --*/
 .header-w3layouts {
   position: absolute;
-   top: 0;
+  top: 0;
   z-index: 99;
   text-align: center;
   left: 0;
@@ -796,8 +873,8 @@ span {
 }
 .agileits-banner-info h3 span {
   padding: 0 20px;
-  color:#FF0A80;
-  font-weight:bold;
+  color: #ff0a80;
+  font-weight: bold;
 }
 .agileits-banner-info {
   text-align: left;
@@ -811,11 +888,11 @@ span {
   color: white;
   font-weight: bolderf;
   margin-top: 2rem;
-  padding:2rem;
+  padding: 2rem;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 10px;
-  position:absolute;
+  position: absolute;
 }
 .agileits_w3layouts_more a:focus {
   outline: none;
@@ -855,8 +932,7 @@ span {
 }
 /*-- //banner-text --*/
 .w3ls-banner-1 {
-  background: url(../images/1.jpg) no-repeat 0px 0px;
-  opacity: 0.1;
+  background: url(../images/banner1.jpg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -914,7 +990,7 @@ span {
   list-style: none;
 }
 .callbacks_container {
-   position: relative;
+  position: relative;
   float: left;
   width: 100%;
 }
@@ -1296,7 +1372,7 @@ span {
   margin-bottom: 1.5em;
 }
 .footer-top p {
-  font-size:13px;
+  font-size: 13px;
   color: black;
   margin: 1em 0;
   line-height: 1.9em;
@@ -1931,6 +2007,10 @@ figure.effect-apollo:hover p {
 /*-- about-team --*/
 .team-row-agileinfo {
   margin: 4em 0;
+  box-shadow: 0px 1px 2px 1px #f009be;
+  border-radius: 20px;
+  padding:2rem;
+
 }
 .social-icon.social-w3lsicon a {
   margin: 0 0.5em;
@@ -1947,14 +2027,16 @@ figure.effect-apollo:hover p {
   padding: 1.5em;
   position: absolute;
   bottom: -17%;
-  background: #fff;
+  box-shadow: 2px 1px 2px 1px #3309f0;
+  border-radius: 5px;
+  background: #6361619d;
   width: 80%;
   left: 10%;
   z-index: 9;
   -webkit-box-shadow: 0px 2px 3px #ccc;
   -moz-box-shadow: 0px 2px 3px #ccc;
   box-shadow: 0px 2px 3px #ccc;
-  height: 30%;
+  height: 45%;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   transition: 0.5s all;
@@ -1962,6 +2044,10 @@ figure.effect-apollo:hover p {
 .team h4 {
   color: #ff69b4;
   font-size: 1.6em;
+}
+.team p {
+  color: white;
+  
 }
 .team {
   padding: 5em 0;
@@ -3989,7 +4075,7 @@ h2.typoh2 {
 .logo {
   border-radius: 50px 50px 50px 50px;
   margin-top: -80px;
-  margin-left:-110px;
+  margin-left: -110px;
 }
 /*-- //responsive-design --*/
 
